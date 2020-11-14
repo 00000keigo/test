@@ -13,7 +13,6 @@ const server = http.createServer((req, res)=>{
    if( endpoint==='/api' ){
       // ここに処理を記述してください。
       if (endpoint === '/api') {
-         // ここに処理を記述してください。
          for (var i = 1; i < 101; i++) {
             var s = "";
             if (!(1 % 3)) { s += "Fizz"; }
