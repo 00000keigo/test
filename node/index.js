@@ -12,14 +12,6 @@ const server = http.createServer((req, res)=>{
    }
    if( endpoint==='/api' ){
       // ここに処理を記述してください。
-      if (endpoint === '/api') {
-         for (var i = 1; i < 101; i++) {
-            var s = "";
-            if (!(1 % 3)) { s += "Fizz"; }
-            if (!(1 % 5)) { s += "Buzz"; }
-            console.log("%d : %s", i, s);
-         }
-      }
-   }
-});
+      for (i = 1; i < 101; i++) { console.log("%d: %s%s", i, !(i % 3) ? 'Fizz' : '', !(i % 5) ? 'Buzz' : ''); }
+}});
 server.listen(8080, process.env.PORT);
