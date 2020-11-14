@@ -1,0 +1,20 @@
+{
+  "name": "avilen-web-codingtest",
+  "version": "1.0.0",
+  "description": "本問題はWebサーバーにおける基本的な知識とアルゴリズムを問うコーディング演習である。以下の **「問題」と「解答の提出」をよく読んで、解答**してください。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/y0he1/avilen-web-codingtest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/y0he1/avilen-web-codingtest/issues"
+  },
+  "homepage": "https://gitlab.com/y0he1/avilen-web-codingtest#readme"
+}
