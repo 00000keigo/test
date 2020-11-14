@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://gitlab.com/y0he1/avilen-web-codingtest/issues"
   },
-  "homepage": "https://gitlab.com/y0he1/avilen-web-codingtest#readme"
+  "homepage": "https://gitlab.com/y0he1/avilen-web-codingtest#readme",
+  "dependencies": {
+    "cool-ascii-faces": "^1.3.4"
+  }
 }
